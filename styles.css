@@ -1,0 +1,201 @@
+* { 
+    margin-top: 0;
+ } 
+
+body { 
+    background-color:black; 
+ } 
+
+ h1 { 
+    color: gold; 
+    font-size: 20px;
+ } 
+
+.home { 
+    color: gold; 
+    text-decoration: none;
+ } 
+
+header > nav  { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black
+    height: 2rem;
+    color: white; 
+    margin-top:8px;
+ } 
+
+.nav-list { 
+    display: flex;
+    list-style: none;
+   } 
+
+.nav-item { 
+  margin-right: 1em;
+ } 
+
+.nav-a { 
+    color: gold; 
+    text-decoration: none;
+   } 
+  
+
+ .company-intro { 
+    background-image: url(./Assets/marguerite-3407277_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52rem;
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   } 
+
+.company-name{ 
+    font-size: 54px;
+    color: black;
+    font-weight: bold;
+   } 
+
+.slogan-cta{ 
+    margin-right: 1em;
+   } 
+
+.cta-button{ 
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+    text-align:center;
+    background-color: green;
+    color: white;
+   }
+
+.heading-3{ 
+    font-size: 26px;
+   } 
+
+.button-text{ 
+    font-size: 18px;
+   } 
+
+.location { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color:#f6f6ed;
+   } 
+.great-location{ 
+    text-align: center;
+    margin-top: 14px;
+} 
+
+.gallery {  
+    padding: 16px 16px 0 16px; 
+    background-color:#f6f6ed;
+} 
+
+.top { 
+    text-align: center;
+} 
+
+.gallery-heading{ 
+    text-align: center;
+} 
+
+.small-photos{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+} 
+
+.small-photos-image{ 
+    width: 28.75em;
+    height: 32em;
+} 
+
+.large-photo{ 
+    margin-top: 5px;
+    width: 100%;
+    height: 36em;
+} 
+
+.arrangement-choices{  
+    padding: 16px 16px 0 16px; 
+    background-color:#f6f6ed;
+} 
+
+.arrangements-heading{ 
+    text-align: center;
+} 
+
+.arrangements-container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 2em;
+} 
+
+.heading4{ 
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+} 
+
+.flower-choice{ 
+    font-size: 16px;
+} 
+
+.choice-photo{ 
+    width: 30em;
+    height: 34em;
+} 
+
+.choice-text{ 
+    width: 30em;
+    align-items: center;
+} 
+
+.team {  
+    padding: 16px 16px 0 16px; 
+    background-color:#f6f6ed;
+
+} 
+
+.team-heading{ 
+    text-align: center;
+} 
+
+.team-images{ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: .25rem;
+    padding-bottom: 16px;
+} 
+
+.team-photo { 
+    width: 28.75em;
+    height: 32em;
+} 
+
+.footer { 
+    padding: 16px 16px 0 16px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+} 
+
+
+.footer-text { 
+    align-items: center;
+    color: gold;
+} 
+
